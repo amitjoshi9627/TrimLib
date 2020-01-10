@@ -2,7 +2,7 @@ import re
 import os
 
 hd = '/home/user/'
-user_path = input()
+user_path = input("Enter File path: ")
 if hd in user_path:
     if hd  in '/' + user_path:
         file = '/' + user_path
