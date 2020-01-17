@@ -1,8 +1,17 @@
 import re
 import os
+import sys
+from arg_process import parse_argument
 
 hd = '/home/user/'
-user_path = input("Enter File path: ")
+try:
+    user_path = parse_argument()
+
+    if user_path[0] == '/':
+        user_path = user_path[1:]
+except:
+    sys.exit(0)
+
 if hd in user_path:
     if hd  in '/' + user_path:
         file = '/' + user_path
