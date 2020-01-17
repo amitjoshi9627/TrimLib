@@ -11,8 +11,8 @@ Trimport is a program which automatically removes unused imports from your Pytho
  
  ### Example: 
  
- 1. `python3 trimport.py -l "Documents/Python/utils.py"
- 2. `python3 trimport.py --location "Documents/Python/utils.py"
+ 1. `python3 trimport.py -l "Documents/Python/utils.py"`
+ 2. `python3 trimport.py --location "Documents/Python/utils.py"`
  
 
 
