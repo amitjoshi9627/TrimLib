@@ -2,7 +2,7 @@
 
 Trimport is a program which automatically removes unused imports from your Python script.
 
-### Usage: trimlib.py [-h] -l/--location "<FILE_LOCATION>"
+### Usage: trimport.py [-h] -l/--location "<FILE_LOCATION>"
 
  #### required arguments:
  > -h, --help            show this help message and exit. \
