@@ -1,6 +1,5 @@
 import argparse
 
-
 def print_error(error_msg):
     if "unrecognized arguments" in error_msg:
         print("Invalid Arguments. Please see help [-h] or [--help]")
